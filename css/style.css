@@ -1,0 +1,65 @@
+/* -----------all-------------> */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+	padding: 0 5.9%;
+}
+/* -----------header-------------> */
+.navigation{
+    background-color: #F0FFF0;
+}
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1% 0;
+    align-items: center;
+    display: flex;
+}
+.logo a img{
+    width: 50%;
+}
+nav{
+    flex: 1;
+    width: 18%;
+    margin: 0 auto;
+}
+nav ul {
+	margin-top: 1.5%;
+	float: inline-end;
+}
+nav ul li {
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 0 11px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.logo {
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+.button {
+	font-size: 16px;
+	font-weight: 400;
+	background: #21B573;
+	padding: 1% 2%;
+	border-radius: 33px;
+    cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+/* -----------hero-------------> */
+
+.hero{
+    background-color: #F0FFF0;
+}
