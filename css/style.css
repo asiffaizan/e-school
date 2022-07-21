@@ -3,9 +3,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+	font-size: 16px;
 }
 .container {
-	padding: 0 5.9%;
+	padding: 2% 4% 2% 9%;
 }
 /* -----------header-------------> */
 .navigation{
@@ -14,12 +15,12 @@ body{
 .navbar{
     width: 100%;
     margin: 0 auto;
-    padding: 1% 0;
+    padding: 0% 0;
     align-items: center;
     display: flex;
 }
-.logo a img{
-    width: 50%;
+.logo a img {
+	width: 57%;
 }
 nav{
     flex: 1;
@@ -27,7 +28,7 @@ nav{
     margin: 0 auto;
 }
 nav ul {
-	margin-top: 1.5%;
+	margin-top: 0;
 	float: inline-end;
 }
 nav ul li {
@@ -47,19 +48,66 @@ nav ul li a {
 	margin: 0 auto;
 	text-align: center;
 }
-.button {
+.navbar .button {
 	font-size: 16px;
 	font-weight: 400;
 	background: #21B573;
-	padding: 1% 2%;
+	padding: 0.8% 2%;
 	border-radius: 33px;
-    cursor: pointer;
+	cursor: pointer;
 	text-decoration: none;
 	color: white;
+	margin-top: -1.5%;
 }
 
 /* -----------hero-------------> */
 
 .hero{
     background-color: #F0FFF0;
+}
+.hero .container {
+	display: flex;
+	padding: 2% 8.9%;
+}
+.half-width{
+	width: 50%;
+}
+.half-width img {
+	width: 98%;
+	margin: 0 0 0 25px;
+	padding-bottom: 45px;
+}
+.half-width.left h5 {
+	color: #FD511A;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.half-width.left .contents {
+	width: 76%;
+	margin: 0 0 0 16%;
+}
+.half-width.left .contents h1 {
+	font-size: 48px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.half-width.left .contents h1 span {
+	color: #21B573;
+}
+.half-width.left .contents p {
+	color: #6C6B6B;
+	margin-bottom: 35px;
+	line-height: 36px;
+}
+.half-width.left .contents a {
+	font-size: 16px;
+	font-weight: 400;
+	background: #21B573;
+	padding: 2.5% 7.5%;
+	border-radius: 33px;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
 }
