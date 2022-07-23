@@ -5,6 +5,10 @@ body{
     font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 }
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
 .container {
 	padding: 2% 4% 2% 9%;
 }
@@ -110,4 +114,46 @@ nav ul li a {
 	cursor: pointer;
 	text-decoration: none;
 	color: white;
+}
+
+/* -----------about-us-------------> */
+.about-us {
+	padding: 1.5% 0;
+}
+.grid {
+display: flex;
+width: 100%;
+align-items: center;
+}
+.grid .card {
+width: 270px;
+margin: 0 auto;
+text-align: center;
+height: 270px;
+display: grid;
+align-content: center;
+background-color: #F8FFFB;
+transition: 0.3s;
+}
+.grid .card:hover {
+background: no-repeat;
+box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+animation: ease;
+}
+.grid .card img {
+width: 26.5%;
+margin: 0 auto;
+}
+.grid .card h3 {
+font-size: 24px;
+font-weight: 500;
+color: #413960;
+padding-top: 9%;
+}
+.grid .card p {
+	color: #585859;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
 }
