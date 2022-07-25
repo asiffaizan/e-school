@@ -120,40 +120,206 @@ nav ul li a {
 .about-us {
 	padding: 1.5% 0;
 }
-.grid {
-display: flex;
-width: 100%;
-align-items: center;
+.about-us .grid {
+	display: flex;
+	width: 100%;
+	align-items: center;
 }
-.grid .card {
-width: 270px;
-margin: 0 auto;
-text-align: center;
-height: 270px;
-display: grid;
-align-content: center;
-background-color: #F8FFFB;
-transition: 0.3s;
+.about-us .grid .card {
+	width: 270px;
+	margin: 0 auto;
+	text-align: center;
+	height: 270px;
+	display: grid;
+	align-content: center;
+	background-color: #F8FFFB;
+	transition: 0.3s;
 }
-.grid .card:hover {
-background: no-repeat;
-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
-animation: ease;
+.about-us .grid .card:hover {
+	background: no-repeat;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	animation: ease;
 }
 .grid .card img {
-width: 26.5%;
-margin: 0 auto;
+	width: 26.5%;
+	margin: 0 auto;
 }
-.grid .card h3 {
-font-size: 24px;
-font-weight: 500;
-color: #413960;
-padding-top: 9%;
+.about-us .grid .card h3 {
+	font-size: 24px;
+	font-weight: 500;
+	color: #413960;
+	padding-top: 9%;
 }
-.grid .card p {
+.about-us .grid .card p {
 	color: #585859;
 	font-size: 16px;
 	font-weight: 400;
 	text-transform: capitalize;
+}
+
+/* -----------courses-------------> */
+.courses {
+	padding: 1.5% 0;
+	text-align: center;
+}
+.courses .title h1{
+	color: #413960;
+	font-size: 36px;
+	font-weight: 700;
+}
+.courses .grid {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+.courses .grid .card {
+	width: 31%;
+	margin: 0 auto;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+.courses .grid .card img {
+	width: 90%;
+	margin: 7% auto 5%;
+}
+.courses .grid .card .texts {
+	text-align: left;
+	width: 90%;
+	margin: 0 auto;
+}
+.courses .grid .card .texts h3 {
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #413960;
+}
+.courses .grid .card .texts p {
+	color: #585859;
+}
+.courses .grid .card .texts a {
+	background: #21B573;
+	text-decoration: none;
+	padding: 2.5% 8.6%;
+	border-radius: 33px;
+	color: #fff;
+	line-height: 5;
+}
+.courses .grid .card .info {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto 20px;
+}
+.courses .grid .card .info .left,.courses .grid .card .info .right {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+.courses .grid .card .info .left{
+	width: 55%;
+}
+.courses .grid .card .info .right{
+	width: 45%;
+}
+.courses .grid .card .info .left img {
+	width: 13%;
+	margin: 0 6px 0 0;
+}
+.courses .grid .card .info .right img {
+	width: 16%;
+	margin-right: 5px;
+	margin-top: 7px;
+}
+.courses .grid .card .info .right p,.courses .grid .card .info .left p {
+	font-size: 16px;
+	font-weight: 500;
+	color: #585859;
+}
+
+/* -----------testimonial-------------> */
+.testimonial {
+	text-align: center;
+	width: 100%;
+	padding-bottom: 5%;
+}
+.testimonial-title h1{
+	font-size: 36px;
+	font-weight: 700;
+}
+.testimonial-content {
+	display: flex;
+	align-items: center;
+}
+.testimonial-image {
+	width: 30%;
+	text-align: right;
+}
+.testimonial-image img {
+	width: 35%;
+}
+.testimonial-text {
+	width: 49%;
+	text-align: left;
+	margin-left: 4%;
+	font-weight: 400;
+}
+.testimonial-text p{
+	color: #000000db;
+}
+
+/* -----------footer-------------> */
+footer{
+	background-color: #282531;
+	color: #fff;
+}
+.footer-contents {
+	display: flex;
+	width: 98%;
+	margin: 1.5% auto;
+}
+.footer-contents .impact {
+	width: 40%;
+}
+.footer-contents .lists{
+	width: 60%;
+}
+.footer-contents .lists {
+	display: flex;
+	align-items: center;
+}
+.footer-contents .impact p {
+	width: 80%;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 2.1;
+}
+.footer-contents .lists .course,.footer-contents .lists .terms,.footer-contents .lists .useful-links {
+	text-align: left;
+}
+.footer-contents .lists .course ul, .footer-contents .lists .terms ul, .footer-contents .lists .useful-links ul {
+	margin-top: 0;
+}
+.footer-contents .lists .course ul li, .footer-contents .lists .terms ul li, .footer-contents .lists .useful-links ul li {
+	list-style: none;
+	line-height: 2.1;
+}
+.footer-contents .lists .course ul li h5,.footer-contents .lists .terms ul li h5,.footer-contents .lists .useful-links ul li h5 {
+	font-size: 18px;
+	font-weight: 700;
+}
+.footer-contents .lists .course ul li a,.footer-contents .lists .terms ul li a,.footer-contents .lists .useful-links ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.footer-contents .lists .course ul li a:hover,.footer-contents .lists .terms ul li a:hover,.footer-contents .lists .useful-links ul li a:hover {
+	text-decoration: underline;
+	animation: ease;
+}
+.copyright {
+	text-align: center;
+	margin-top: 7%;
 }
